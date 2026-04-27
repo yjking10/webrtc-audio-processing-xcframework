@@ -24,8 +24,8 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "webrtc_audio_processing",
-            url: "https://resource.wavenote.cn/app/sdk/webrtc_audio_processing.xcframework.zip",
-            checksum: "1e4485b5b53ad44b4e86c70792cec5973f98c8f1d1825ea360e488269a8199e1"
+            url: "https://resourcetest.wavenote.cn/app/sdk/webrtc_audio_processing.xcframework.zip",
+            checksum: "1e66f90207b0d3faaad6f0f9a84909d0fb3d4c3ac8ec8d7ecbf2defb2ab9afea"
         ),
     ]
 )
