@@ -22,7 +22,7 @@ Then enter the repository URL.
 Or add it to `Package.swift`:
 
 ```swift
-.package(url: "https://github.com/<owner>/webrtc-audio-processing-xcframework.git", from: "1.0.0")
+.package(url: "https://github.com/yjking10/webrtc-audio-processing-xcframework", branch: "main")
 ```
 
 Then add the product to your target dependencies:
