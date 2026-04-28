@@ -43,24 +43,3 @@ For Objective-C++ usage:
 #import <webrtc_audio_processing/webrtc-audio-processing-1/modules/audio_processing/include/audio_processing.h>
 ```
 
-If Xcode reports an error like this:
-
-```text
-'absl/types/optional.h' file not found
-```
-
-update to the latest version of this package. The package includes a SwiftPM wrapper target that exposes the required WebRTC and Abseil public headers automatically.
-
-If the package was already added in Xcode before this fix, use:
-
-```text
-File > Packages > Reset Package Caches
-```
-
-## Binary
-
-This package wraps the following binary XCFramework:
-
-```text
-https://resource.wavenote.cn/app/sdk/webrtc_audio_processing.xcframework.zip
-```
