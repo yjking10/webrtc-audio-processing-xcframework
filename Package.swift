@@ -24,7 +24,7 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
             name: "webrtc_audio_processing",
-            url: "https://resource.wavenote.cn/app/sdk/webrtc_audio_processing.xcframework.zip",
+            url: "https://github.com/yjking10/webrtc-audio-processing-xcframework/releases/download/1.0.0/webrtc_audio_processing.xcframework.zip",
             checksum: "a6dad64f46f64bb0cc3ba99c5410b6bc827c3497ba2c72ef926a6cec6b88949f"
         ),
     ]
